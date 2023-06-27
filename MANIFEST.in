@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include evclinic *.css
+recursive-include evclinic *.csv
+recursive-include evclinic *.html
+recursive-include evclinic *.ico
+recursive-include evclinic *.js
+recursive-include evclinic *.json
+recursive-include evclinic *.md
+recursive-include evclinic *.png
+recursive-include evclinic *.py
+recursive-include evclinic *.svg
+recursive-include evclinic *.txt
+recursive-exclude evclinic *.pyc
